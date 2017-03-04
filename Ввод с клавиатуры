@@ -1,0 +1,15 @@
+BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+
+String name = reader.readLine();
+String sAge = reader.readLine();
+int nAge = Integer.parseInt(sAge);
+
+
+
+BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String num1 = reader.readLine();
+        String num2 = reader.readLine();
+        String num3 = reader.readLine();
+        int n1 = Integer.parseInt(num1);
+        int n2 = Integer.parseInt(num2);
+        int n3 = Integer.parseInt(num3);

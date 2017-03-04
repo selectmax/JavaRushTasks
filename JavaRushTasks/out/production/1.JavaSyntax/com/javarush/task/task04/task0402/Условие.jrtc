@@ -1,0 +1,8 @@
+taskKey="com.javarush.task.task04.task0402"
+
+Цена яблока
+
+Реализовать метод addPrice(int applesPrice), чтобы при его вызове суммарная стоимость яблок увеличивалось на переданное значение.
+За суммарную стоимость яблок отвечает переменная public static int applesPrice.
+
+
