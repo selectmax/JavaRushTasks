@@ -13,9 +13,9 @@ public class Solution {
         String num2 = reader.readLine();
         String num3 = reader.readLine();
         Integer[] mass = new Integer[3];
-        mass[0] = Integer.parseInt(num1);
-        mass[1] = Integer.parseInt(num2);
-        mass[2] = Integer.parseInt(num3);
+        mass[0] = 50; //Integer.parseInteger(num1);
+        mass[1] = 20; // Integer.parseInteger(num2);
+        mass[2] = 35; // Integer.parseInteger(num3);
         System.out.println("0check:" + mass[2] + " " + mass[1] + " " + mass[0]);
     if (mass[0]>mass[1]) Change(mass[0],mass[1]);
         System.out.println("1check:" + mass[2] + " " + mass[1] + " " + mass[0]);

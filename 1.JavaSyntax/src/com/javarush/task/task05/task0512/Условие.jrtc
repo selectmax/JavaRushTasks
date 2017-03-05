@@ -1,0 +1,10 @@
+taskKey="com.javarush.task.task05.task0512"
+
+Создать класс Circle
+
+Создать класс (Circle) круг, с тремя инициализаторами:
+- centerX, centerY, radius
+- centerX, centerY, radius, width
+- centerX, centerY, radius, width, color
+
+
