@@ -9,16 +9,17 @@ import java.io.*;
 public class Solution {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int maximum = 0;
+        int maximum = -2147483648;
         int n = Integer.parseInt(reader.readLine());
-        int[] a = new int[n];
-if (n>0) for (int i=0; i<n; i++) {
+       if (n>0) {int[] a = new int[n];
+        for (int i=0; i<a.length; i++) {
             a[i] = Integer.parseInt(reader.readLine());
             if (a[i] > maximum) {maximum = a[i];
                // System.out.println("Максимум обновлен");
                 }
         }
 
-        System.out.println(maximum);
+        System.out.println(maximum);}
+
     }
 }
