@@ -4,7 +4,7 @@ String name = reader.readLine();
 String sAge = reader.readLine();
 int nAge = Integer.parseInt(sAge);
 
-
+Integer.parseInt(reader.readLine());  //возвращает значение прочитанного числа
 
 
 package com.javarush.task.task03.task0319;
@@ -22,6 +22,7 @@ public class Solution {
         String name = reader.readLine();
         String firstAge = reader.readLine();
         String secondAge = reader.readLine();
+        Integer.parseInt(reader.readLine());
         int fAge = Integer.parseInt(firstAge);
         int sAge = Integer.parseInt(secondAge);
         System.out.println(name +" получает " + fAge +" через " + sAge + "лет.");//напишите тут ваш код
